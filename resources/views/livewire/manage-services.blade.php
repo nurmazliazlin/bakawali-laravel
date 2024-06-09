@@ -1,3 +1,4 @@
+<!-- Admin Manage Service -->
 <div>
     <div class="flex justify-between mx-7">
         <h2 class="text-2xl font-bold">Services</h2>
@@ -6,7 +7,7 @@
             Create
         </x-button>
     </div>
-    <div class="mt-4">
+    <div class="mt-4"> <!-- CreateService.php -->
         @if (session()->has('message'))
             <div class="px-4 py-2 text-white bg-green-500 rounded-md">
                 {{ session('message') }}
@@ -25,7 +26,7 @@
                     </svg>
                 </div>
                 <input type="search" wire:model="search" id="default-search" name="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search Services...">
-                <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-pink-600 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2">Search</button>
+                <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-yellow-700 hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-orange-50 font-medium rounded-lg text-sm px-4 py-2">Search</button>
             </div>
         </div>
 

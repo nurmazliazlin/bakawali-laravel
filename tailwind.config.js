@@ -15,6 +15,9 @@ module.exports = {
                 // sans: ["Figtree", ...defaultTheme.fontFamily.sans],
                 sans: ["K2D", ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                primary: '#514336',
+            },
         },
     },
 

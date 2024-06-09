@@ -226,7 +226,7 @@
 
         <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-10">
-                <h1 class="text-4xl font-bold tracking-tight text-pink-500">Services</h1>
+                <h1 class="text-4xl font-bold tracking-tight text-yellow-700">Services</h1>
                 <div class="w-1/3 float-right m-4">
                     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
                     <div class="relative">
@@ -241,7 +241,7 @@
                                class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
                                placeholder="Search Services...">
                         <button type="submit"
-                                class="text-white absolute right-2.5 bottom-2.5 bg-pink-600 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2">
+                                class="text-white absolute right-2.5 bottom-2.5 bg-yellow-700 hover:bg-amber-900 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2">
                             Search
                         </button>
                     </div>

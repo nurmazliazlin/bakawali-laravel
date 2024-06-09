@@ -34,7 +34,7 @@
                     <section aria-labelledby="information-heading" class="mt-2">
                         <h3 id="information-heading" class="sr-only">Product information</h3>
 
-                        <p class="text-2xl text-gray-900">LKR {{ number_format($service->price, 2, '.', ',') }}
+                        <p class="text-2xl text-gray-900">MYR {{ number_format($service->price, 2, '.', ',') }}
                         </p>
 
 
@@ -357,7 +357,7 @@
 {{--                </div>--}}
 
 {{--                <button type="submit"--}}
-{{--                        class="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">--}}
+{{--                        class="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-700 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">--}}
 {{--                    Add to bag--}}
 {{--                </button>--}}
 {{--                </form>--}}
